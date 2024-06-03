@@ -1,12 +1,11 @@
-document.getElementById('startGameButton').addEventListener('click', startGame);
+document.getElementById('startMusicButton').addEventListener('click', startMusic);
 
 const songs = [
     
-'/AUD-20231109-WA0072.mp3',
+    '/AUD-20231109-WA0072.mp3',
     '/AUD-20231109-WA0069.mp3',
     '/AUD-20231109-WA0070.mp3', 
-
-'/AUD-20231109-WA0068.mp3',
+    '/AUD-20231109-WA0068.mp3',
     '/AUD-20231109-WA0067.mp3',
     '/AUD-20231109-WA0075.mp3',
     '/AUD-20240109-WA0135.opus',
@@ -21,10 +20,10 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-function startGame() {
+function startMusic() {
     const audioPlayer = document.getElementById('audioPlayer');
     const randomSong = songs[getRandomInt(0, songs.length)];
-    const randomStopTime = getRandomInt(95000, 165000, 195000); // Stop between 5 and 15 seconds
+    const randomStopTime = getRandomInt(195000, 265000, 395000); // Stop between  and  seconds
 
     audioPlayer.src = randomSong;
     audioPlayer.play();
