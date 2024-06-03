@@ -24,7 +24,7 @@ function getRandomInt(min, max) {
 function startGame() {
     const audioPlayer = document.getElementById('audioPlayer');
     const randomSong = songs[getRandomInt(0, songs.length)];
-    const randomStopTime = getRandomInt(45000, 65000, 95000); // Stop between 5 and 15 seconds
+    const randomStopTime = getRandomInt(95000, 165000, 195000); // Stop between 5 and 15 seconds
 
     audioPlayer.src = randomSong;
     audioPlayer.play();
