@@ -1,5 +1,5 @@
 body {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,27 +15,31 @@ font-family: Arial, sans-serif;
 
 .container1{
 	margin: auto;
-display: block;
-margin-bottom: 10px;
-position: absolute;
-bottom: 0;
-display: flex;
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    margin-left: 60px;
 }
 
 .div{
 	position: absolute;
-	margin-left: 70px;
-top: 85%;
+	margin-left: 150px;
+    top: 35%;
 }
 
 .down{
-	margin-top: 60px;
-	margin- left: -60px;
-	position: absolute;
+	margin-top: 85px;
+	margin-right: -20px;
+	margin-left: 120px;
+	font-weight: 800;
+	
 }
 
 h1{
 	margin-left: -10%;
+	
 }
 
 img{
@@ -44,7 +48,6 @@ img{
 	align-item: center;
 	margin-bottom: 10px;
 	border-radius: 20px;
-	
 	margin-left: 30%;
 }
 
@@ -52,5 +55,6 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-right: 10px;
-}
+    margin-right: 25px;
+    font-weight: 800;
+	}
