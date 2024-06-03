@@ -2,15 +2,17 @@ document.getElementById('startGameButton').addEventListener('click', startGame);
 
 const songs = [
     
-'/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0072.mp3',
-    '/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0069.mp3',
-    '/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0070.mp3', 
+'/AUD-20231109-WA0072.mp3',
+    '/AUD-20231109-WA0069.mp3',
+    '/AUD-20231109-WA0070.mp3', 
 
-'/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0068.mp3',
-    '/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0067.mp3',
-    '/storage/emulated/0/Music/Whatsapp/AUD-20231109-WA0075.mp3',
-    '/storage/emulated/0/Music/WhatsApp/AUD-20240109-WA0135.opus',
-    '/storage/emulated/0/Music/WhatsApp/AUD-20240115-WA0180.aac'
+'/AUD-20231109-WA0068.mp3',
+    '/AUD-20231109-WA0067.mp3',
+    '/AUD-20231109-WA0075.mp3',
+    '/AUD-20240109-WA0135.opus',
+    '/AUD-20231109-WA0071.mp3',
+    '/osg_E_007.mp3',
+    '/AUD-20240115-WA0180.aac'
 
 // Add paths to your songs here
 ];
